@@ -6,6 +6,7 @@
 timestamp=$(date -u +%FT%H:%M:%S)
 index_name="wunderground-$(date +%F)"
 server_ip=192.168.1.18
+wunder_api_key="aaaaaaaaaaaa" // API key
 state="ST" // State
 city="City" // City in state
 
